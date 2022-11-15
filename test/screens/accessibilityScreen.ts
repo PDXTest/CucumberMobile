@@ -1,27 +1,27 @@
-import AccessibilityLoc from '../locators/accessibility'
+import Locators from '../locators/Locators'
 
-const accessibilityLoc = new AccessibilityLoc();
+const locators = new Locators();
 
 export default class aceesibilityscreen{
 
   get accessibilitylink (){
-    return accessibilityLoc.alertView;
+    return locators.alertView;
   }
   get testentry (){
-    return accessibilityLoc.textentry;
+    return locators.textentry;
   }
   get setValue(){
-    return accessibilityLoc.setvalue;
+    return locators.setvalue;
   }
   get clkOKbtn(){
-    return accessibilityLoc.btnOK;
+    return locators.btnOK;
   }
   get clkConfirmCancel(){
-    return accessibilityLoc.confimCancel;
+    return locators.confimCancel;
   }
 
   get btnConfim(){
-    return accessibilityLoc.btnConfim;
+    return locators.btnConfim;
   }
 
 
