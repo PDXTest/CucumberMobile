@@ -1,18 +1,18 @@
 import {Given, Then, When} from '@wdio/cucumber-framework'
 import Accessibility from '../screens/accessibilityScreen'
-import AccessibilityLoc from '../locators/accessibility'
+import Locators from '../locators/Locators'
 
 import allureReporter from '@wdio/allure-reporter'
 
 const accessibility = new Accessibility();
-const accessibilityloc = new AccessibilityLoc();
+const locators = new Locators();
 
 Given("user is using Accessibilty",async () => {
 
  allureReporter.addFeature('Feature_name');
  allureReporter.addStory('Story_name');
 
-   (await accessibilityloc.alertView).click();
+   (await locators.alertView).click();
    allureReporter.addStep("First test caes is passed");
 
    }) 
