@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668528092896' stop='1668528092903'>
+    <name>Accessibilty ID: Accessibilty</name>
+    <title>Accessibilty ID: Accessibilty</title>
+    <test-cases>
+        <test-case start='1668528092897' status='passed' stop='1668528092899'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668528092899' status='broken' stop='1668528092900'>
+            <name>Given user is using Accessibilty</name>
+            <title>Given user is using Accessibilty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user is using Accessibilty" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user is using Accessibilty" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/accesibilityID.feature):1:1
+                	at Scenario(Accessibilty):3:4
+                	at Step(user is using Accessibilty):4:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528092901' status='broken' stop='1668528092901'>
+            <name>When User is albe click</name>
+            <title>When User is albe click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "User is albe click" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "User is albe click" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/accesibilityID.feature):1:1
+                	at Scenario(Accessibilty):3:4
+                	at Step(User is albe click):5:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528092901' status='broken' stop='1668528092901'>
+            <name>Then user is able to validate</name>
+            <title>Then user is able to validate</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user is able to validate" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user is able to validate" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/accesibilityID.feature):1:1
+                	at Scenario(Accessibilty):3:4
+                	at Step(user is able to validate):6:7
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528092901' status='passed' stop='1668528092902'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

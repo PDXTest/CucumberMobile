@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668528114177' stop='1668528114192'>
+    <name>using xpath: xpath</name>
+    <title>using xpath: xpath</title>
+    <test-cases>
+        <test-case start='1668528114178' status='passed' stop='1668528114180'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668528114181' status='broken' stop='1668528114182'>
+            <name>Given user is using xpath</name>
+            <title>Given user is using xpath</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user is using xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user is using xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/xPath.feature):1:1
+                	at Scenario(xpath):3:1
+                	at Step(user is using xpath):4:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528114183' status='broken' stop='1668528114187'>
+            <name>When User is albe click xpath</name>
+            <title>When User is albe click xpath</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "User is albe click xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "User is albe click xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/xPath.feature):1:1
+                	at Scenario(xpath):3:1
+                	at Step(User is albe click xpath):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528114187' status='broken' stop='1668528114187'>
+            <name>Then user is able to validate xpath</name>
+            <title>Then user is able to validate xpath</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "user is able to validate xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user is able to validate xpath" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/CBHIR/CucumberMobile/test/features/xPath.feature):1:1
+                	at Scenario(xpath):3:1
+                	at Step(user is able to validate xpath):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668528114187' status='passed' stop='1668528114190'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 13-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
